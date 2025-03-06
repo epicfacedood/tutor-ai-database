@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "subject": "string",
+    "topic": "string",
+    "subtopic": "string",
+    "education_level": "string",
+    "syllabus_reference": "string",
+    "syllabus_code": "string",
+    "exam_board": "string",
+    "difficulty_level": "string",
+    "prerequisites": ["string"],
+    "learning_objectives": ["string"],
+    "source": {
+      "title": "string",
+      "author": "string",
+      "publisher": "string",
+      "year": "string",
+      "url": "string",
+      "file_path": "string"
+    },
+    "tags": ["string"]
+  },
+  "content": {
+    "summary": "string",
+    "key_concepts": [
+      {
+        "concept_id": "string",
+        "concept_name": "string",
+        "definition": "string",
+        "explanation": "string",
+        "importance": "string",
+        "common_misconceptions": ["string"],
+        "formulas": [
+          {
+            "formula": "string",
+            "variables": {
+              "variable_name": "description"
+            },
+            "units": "string",
+            "constraints": "string",
+            "latex_representation": "string"
+          }
+        ],
+        "examples": [
+          {
+            "example_id": "string",
+            "context": "string",
+            "problem_statement": "string",
+            "solution_steps": ["string"],
+            "final_answer": "string",
+            "explanation": "string",
+            "difficulty_level": "string"
+          }
+        ],
+        "visual_representations": [
+          {
+            "type": "string",
+            "description": "string",
+            "text_representation": "string"
+          }
+        ]
+      }
+    ],
+    "practice_questions": [
+      {
+        "question_id": "string",
+        "question_type": "string",
+        "question_text": "string",
+        "difficulty_level": "string",
+        "marks_available": "number",
+        "time_estimate_minutes": "number",
+        "solution": {
+          "steps": ["string"],
+          "final_answer": "string",
+          "common_errors": ["string"]
+        },
+        "hints": ["string"],
+        "related_concepts": ["string"],
+        "skills_tested": ["string"]
+      }
+    ],
+    "worked_examples": [
+      {
+        "example_id": "string",
+        "title": "string",
+        "context": "string",
+        "problem_statement": "string",
+        "solution_approach": "string",
+        "detailed_solution": ["string"],
+        "key_insights": ["string"],
+        "related_concepts": ["string"]
+      }
+    ],
+    "exam_tips": [
+      {
+        "tip_id": "string",
+        "tip_text": "string",
+        "applicable_questions": ["string"],
+        "importance": "string"
+      }
+    ]
+  },
+  "relationships": {
+    "prerequisites": ["string"],
+    "related_topics": ["string"],
+    "follows_from": ["string"],
+    "leads_to": ["string"]
+  },
+  "pedagogical_metadata": {
+    "teaching_approaches": ["string"],
+    "common_student_difficulties": ["string"],
+    "suggested_activities": ["string"],
+    "estimated_teaching_time": "string"
+  }
+}

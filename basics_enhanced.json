@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "subject": "Mathematics",
+    "topic": "Functions  \nBasics  \nFill in the blanks",
+    "subtopic": "Basics",
+    "education_level": "JC / A Level",
+    "syllabus_reference": "Part of the Functions chapter, including vertical line test, inverse functions, and composite functions.",
+    "additional_information": "Includes examples, definitions, common misconceptions, and methods for finding ranges.",
+    "filename": "Basics.pdf",
+    "file_path": "dataprocessing/raw_data/notes/Basics.pdf",
+    "file_size_bytes": 74847,
+    "processed_date": "2025-03-06T14:41:19.794419"
+  },
+  "key_concepts": {
+    "Vertical_Line_Test": {
+      "definition": "A method to determine if a relation is a function by checking that each x-value corresponds to exactly one y-value.",
+      "explanation": "If any vertical line intersects the graph at more than one point, the relation is not a function. This helps identify functions from non-functions and understand common misconceptions like piecewise definitions."
+    },
+    "Inverse_Functions": {
+      "definition": "A function that reverses another function, denoted as f\u207b\u00b9(x), such that applying f followed by f\u207b\u00b9 (or vice versa) returns the original input.",
+      "existence": "Only exists if the function is one-to-one (injective); a horizontal line test can determine this.",
+      "examples_and_explanations": "Functions like linear equations with slope \u2260 0 have inverses. Piecewise functions without domain restrictions typically do not have inverses."
+    },
+    "Composite_Functions": {
+      "definition": "A function formed by using the output of one function as the input of another, denoted as gf(x) = g(f(x)).",
+      "range_finding": "Involves finding the range after substituting step-by-step and considering domain restrictions for accurate results."
+    }
+  },
+  "examples_and_explanations": {
+    "Vertical_Line_Test_Example": {
+      "function": "(x) => x^2",
+      "test": "Any vertical line intersects at only one point; thus, it's a function.",
+      "non_function_example": "(x) => \u00b1sqrt(x)"
+    }
+  },
+  "common misconceptions": {
+    "Inverse_Functions": "Misunderstanding that non-one-to-one functions have inverses. Emphasize the need for domain restrictions to make them one-to-one."
+  },
+  "practice_questions": [
+    {
+      "topic": "Vertical Line Test",
+      "question": "Is the relation {(1,2), (1,3)} a function? Explain using the vertical line test."
+    },
+    {
+      "topic": "Inverse Functions",
+      "question": "Given f(x) = 2x + 1, find its inverse and verify it by composition."
+    },
+    {
+      "topic": "Composite Functions",
+      "question": "If f(x) = x^2 and g(x) = x + 3, find (fg)(x) and the range of fg for x in [0,2]."
+    }
+  ],
+  "additional_info": "Includes detailed explanations on why certain functions don't have inverses without restricting their domains, emphasizing one-to-one correspondence."
+}
